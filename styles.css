@@ -1,0 +1,102 @@
+.topimage {
+    width: 30%;
+    height: auto;
+    margin: 50px;
+}
+.headding {
+    display: flex;
+    color: white;
+    margin: 50px;
+}
+.header-logo {
+    flex: 1;
+}
+.three-links {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    flex: 1;
+}
+.blue-box {
+    background-color: rgb(48, 48, 69);
+    width: 100%;
+}
+.textandimage {
+    display: flex;
+}
+.leftbluetext {
+    color: white;
+    padding: 50px;
+}
+.awesome {
+    font-size: xx-large;
+}
+.subtext {
+    font-size: x-small;
+}
+.random {
+    text-align: center;
+}
+.blueboxescontainer img {
+    width: 100px;
+    height: auto;
+    border-radius: 10%;
+    border: 2px solid rgb(48, 48, 69);
+}
+.blueboxescontainer {
+    display: flex;
+    justify-content: space-around;
+}
+.box-text1, .box-text2, .box-text3, .box-text4 {
+    flex: 1;
+    margin: 10px;
+}
+.text1, .text2, .text3, .text4 {
+    width: 100px;
+    font-size: x-small;
+}
+.greybox {
+    background-color: rgb(188, 182, 182);
+}
+
+.inspire {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-top: 100px;
+}
+.thor {
+    padding-left: 400px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    font-weight: 800;
+}
+.last-blue {
+    background-color: hsl(240, 64%, 67%);
+    border-radius: 5px;
+    margin: 50px;
+    display: flex;
+}
+.call-text {
+    color: white;
+    padding-left: 50px;
+}
+.call {
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+.click {
+    margin-top: 0;
+}
+.bottomsign {
+    margin: 50px;
+    text-wrap: nowrap;
+}
+.copyright {
+    background-color: rgb(48, 48, 69);
+}
+.copyrighttext {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
