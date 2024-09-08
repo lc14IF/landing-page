@@ -2,6 +2,7 @@
     width: 30%;
     height: auto;
     margin: 50px;
+    flex: auto;
 }
 .headding {
     display: flex;
@@ -37,23 +38,31 @@
 .random {
     text-align: center;
 }
+
 .blueboxescontainer img {
     width: 100px;
     height: auto;
     border-radius: 10%;
     border: 2px solid rgb(48, 48, 69);
+    justify-content: center;
 }
 .blueboxescontainer {
     display: flex;
-    justify-content: space-around;
+    
 }
 .box-text1, .box-text2, .box-text3, .box-text4 {
+    display: flex;
     flex: 1;
+    flex-direction: column;
     margin: 10px;
+    align-items: center;
+    
 }
 .text1, .text2, .text3, .text4 {
     width: 100px;
     font-size: x-small;
+    justify-content: center;
+    
 }
 .greybox {
     background-color: rgb(188, 182, 182);
